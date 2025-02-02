@@ -1,0 +1,50 @@
+<script setup>
+import { ref } from "vue";
+
+const isMobileMenuOpen = ref(false);
+const toggleMobileMenu = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value;
+};
+</script>
+
+<template>
+  <header class="bg-blue-900 text-white py-2 dark:text-slate-300 dark:bg-blue-800 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
+      <!-- Logo -->
+      <div class="flex items-center space-x-4">
+        <NuxtLink to="/">
+          <img src="/assets/images/mcst-logo.png" alt="MCST Logo" class="max-h-20 w-auto sm:max-h-16" />
+        </NuxtLink>
+        <h1 class="text-lg sm:text-xl font-bold dark:text-slate-300">Mandaluyong College of Science and Technology</h1>
+      </div>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex space-x-4">
+        <NuxtLink to="/about" class="hover:text-yellow-400">About Us</NuxtLink>
+        <NuxtLink to="/programs" class="hover:text-yellow-400">Programs Offered</NuxtLink>
+        <NuxtLink to="/admission" class="hover:text-yellow-400">Admissions Info</NuxtLink>
+        <NuxtLink to="/apply" class="hover:text-yellow-400">Apply</NuxtLink>
+      </nav>
+
+      <!-- Mobile Menu Toggle Button -->
+      <button 
+        class="md:hidden text-white dark:text-slate-300" 
+        @click="toggleMobileMenu" 
+        aria-label="Toggle Navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div v-if="isMobileMenuOpen" class="md:hidden">
+      <nav class="bg-blue-800 p-4 space-y-2">
+        <NuxtLink to="/about" class="block text-white hover:text-yellow-400 dark:text-slate-300">About Us</NuxtLink>
+        <NuxtLink to="/programs" class="block text-white hover:text-yellow-400 dark:text-slate-300">Programs Offered</NuxtLink>
+        <NuxtLink to="/admission" class="block text-white hover:text-yellow-400 dark:text-slate-300">Admissions Info</NuxtLink>
+        <NuxtLink to="/apply" class="block text-white hover:text-yellow-400 dark:text-slate-300">Apply</NuxtLink>
+      </nav>
+    </div>
+  </header>
+</template>
