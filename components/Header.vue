@@ -18,10 +18,10 @@ const toggleMobileMenu = () => {
       </div>
 
       <nav class="hidden md:flex space-x-4">
-        <NuxtLink to="/about" class="hover:text-yellow-400">About Us</NuxtLink>
-        <NuxtLink to="/programs" class="hover:text-yellow-400">Programs Offered</NuxtLink>
-        <NuxtLink to="/admission" class="hover:text-yellow-400">Admissions Info</NuxtLink>
-        <NuxtLink to="/apply" class="hover:text-yellow-400">Apply</NuxtLink>
+        <NuxtLink to="/About" class="hover:text-yellow-400">About Us</NuxtLink>
+        <NuxtLink to="/Programs" class="hover:text-yellow-400">Programs Offered</NuxtLink>
+        <NuxtLink to="/Admission" class="hover:text-yellow-400">Admissions Info</NuxtLink>
+        <NuxtLink to="/Apply" class="hover:text-yellow-400">Apply</NuxtLink>
       </nav>
 
       <button 
@@ -36,10 +36,10 @@ const toggleMobileMenu = () => {
 
     <div v-if="isMobileMenuOpen" class="md:hidden">
       <nav class="bg-blue-800 p-4 space-y-2">
-        <NuxtLink to="/about" class="block text-white hover:text-yellow-400 dark:text-slate-300">About Us</NuxtLink>
-        <NuxtLink to="/programs" class="block text-white hover:text-yellow-400 dark:text-slate-300">Programs Offered</NuxtLink>
-        <NuxtLink to="/admission" class="block text-white hover:text-yellow-400 dark:text-slate-300">Admissions Info</NuxtLink>
-        <NuxtLink to="/apply" class="block text-white hover:text-yellow-400 dark:text-slate-300">Apply</NuxtLink>
+        <NuxtLink to="/About" class="block text-white hover:text-yellow-400 dark:text-slate-300">About Us</NuxtLink>
+        <NuxtLink to="/Programs" class="block text-white hover:text-yellow-400 dark:text-slate-300">Programs Offered</NuxtLink>
+        <NuxtLink to="/Admission" class="block text-white hover:text-yellow-400 dark:text-slate-300">Admissions Info</NuxtLink>
+        <NuxtLink to="/Apply" class="block text-white hover:text-yellow-400 dark:text-slate-300">Apply</NuxtLink>
       </nav>
     </div>
   </header>
