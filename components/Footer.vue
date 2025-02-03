@@ -19,8 +19,8 @@
         <div class="flex flex-col space-y-8 md:flex-row md:space-y-0 md:space-x-16">
           <div>
             <h4 class="font-semibold mb-2 dark:text-slate-200">Admissions</h4>
-            <NuxtLink to="/programs" class="block text-gray-300 hover:text-yellow-400">Program Offerings</NuxtLink>
-            <NuxtLink to="/admission" class="block text-gray-300 hover:text-yellow-400">Admissions Info</NuxtLink>
+            <NuxtLink to="/Programs" class="block text-gray-300 hover:text-yellow-400">Program Offerings</NuxtLink>
+            <NuxtLink to="/Admission" class="block text-gray-300 hover:text-yellow-400">Admissions Info</NuxtLink>
           </div>
           <div>
             <h4 class="font-semibold mb-2 dark:text-slate-200">Resources</h4>
