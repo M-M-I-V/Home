@@ -1,5 +1,5 @@
 <template>
-    <section class="relative h-[600px] bg-cover bg-center pt-[calc(100px)]" style="background-image: url('/assets/images/hero-section.png');">
+    <section class="relative h-[600px] bg-cover bg-center pt-[calc(100px)]" style="background-image: url('@/assets/images/hero-section.png');">
     <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center px-6 sm:px-12">
       <h2 class="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 dark:text-slate-200">Empowering Futures <br> Through Science and <br> Technology</h2>
       <p class="text-sm text-gray-200 max-w-3xl dark:text-slate-200">
