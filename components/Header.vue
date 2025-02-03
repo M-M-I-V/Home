@@ -10,7 +10,6 @@ const toggleMobileMenu = () => {
 <template>
   <header class="bg-blue-900 text-white py-2 dark:text-slate-300 dark:bg-blue-800 sticky top-0 z-50">
     <div class="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
-      <!-- Logo -->
       <div class="flex items-center space-x-4">
         <NuxtLink to="/">
           <img src="/assets/images/mcst-logo.png" alt="MCST Logo" class="max-h-20 w-auto sm:max-h-16" />
@@ -18,7 +17,6 @@ const toggleMobileMenu = () => {
         <h1 class="text-lg sm:text-xl font-bold dark:text-slate-300">Mandaluyong College of Science and Technology</h1>
       </div>
 
-      <!-- Desktop Navigation -->
       <nav class="hidden md:flex space-x-4">
         <NuxtLink to="/about" class="hover:text-yellow-400">About Us</NuxtLink>
         <NuxtLink to="/programs" class="hover:text-yellow-400">Programs Offered</NuxtLink>
@@ -26,7 +24,6 @@ const toggleMobileMenu = () => {
         <NuxtLink to="/apply" class="hover:text-yellow-400">Apply</NuxtLink>
       </nav>
 
-      <!-- Mobile Menu Toggle Button -->
       <button 
         class="md:hidden text-white dark:text-slate-300" 
         @click="toggleMobileMenu" 
@@ -37,7 +34,6 @@ const toggleMobileMenu = () => {
       </button>
     </div>
 
-    <!-- Mobile Navigation Menu -->
     <div v-if="isMobileMenuOpen" class="md:hidden">
       <nav class="bg-blue-800 p-4 space-y-2">
         <NuxtLink to="/about" class="block text-white hover:text-yellow-400 dark:text-slate-300">About Us</NuxtLink>
