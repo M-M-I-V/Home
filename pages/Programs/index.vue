@@ -13,9 +13,9 @@
       
           <div>
             <ul class="list-none space-y-2">
-              <li><NuxtLink to="/Programs/Communications" class="text-blue-700 hover:underline dark:text-blue-500">Bachelor of Arts in Communication</NuxtLink></li>
-              <li><NuxtLink to="/Programs/InformationSystems" class="text-blue-700 hover:underline dark:text-blue-500">Bachelor of Science in Information Systems</NuxtLink></li>
-              <li><NuxtLink to="/Programs/Mathematics" class="text-blue-700 hover:underline dark:text-blue-500">Bachelor of Science in Mathematics</NuxtLink></li>
+              <li><NuxtLink to="/Programs/BA-Communications" class="text-blue-700 hover:underline dark:text-blue-500">Bachelor of Arts in Communication</NuxtLink></li>
+              <li><NuxtLink to="/Programs/BS-Information-Systems" class="text-blue-700 hover:underline dark:text-blue-500">Bachelor of Science in Information Systems</NuxtLink></li>
+              <li><NuxtLink to="/Programs/BS-Mathematics" class="text-blue-700 hover:underline dark:text-blue-500">Bachelor of Science in Mathematics</NuxtLink></li>
             </ul>
           </div>
         </div>
