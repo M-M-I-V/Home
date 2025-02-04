@@ -13,7 +13,7 @@ export default defineNuxtConfig({
         { property: 'og:image', content: '@/assets/images/hero-section.png' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '@/assets/images/mcst-logo.png' }
+        { rel: 'icon', type: 'image/png', href: '/images/mcst-logo.png' }
       ]
     }
   },
@@ -31,6 +31,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   plugins: [
-    '~/plugins/aos.client.ts'
+    '@/plugins/aos.client.ts'
   ]
 });
