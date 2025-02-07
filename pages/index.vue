@@ -47,77 +47,24 @@
 
   <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="200" id="blog" class="py-12 bg-gray-50 dark:bg-zinc-900">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-12">
-            <h4 class="text-sm font-medium text-gray-600 uppercase dark:text-slate-300">News and Events</h4>
-            <h2 class="text-3xl font-bold text-gray-900 dark:text-slate-200">Latest Insights and Updates</h2>
-            <p class="text-gray-600 dark:text-slate-300">Explore our latest articles and insights.</p>
-        </div>
+      <div class="text-center mb-12">
+        <h4 class="text-sm font-medium text-gray-600 uppercase dark:text-slate-300">News and Events</h4>
+        <h2 class="text-3xl font-bold text-gray-900 dark:text-slate-200">Latest Insights and Updates</h2>
+        <p class="text-gray-600 dark:text-slate-300">Explore our latest articles and insights.</p>
+      </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <a href="https://www.facebook.com/share/p/1BNSzjUoGd/" target="_blank" rel="noopener noreferrer" class="relative block bg-white rounded-lg shadow-md overflow-hidden dark:bg-zinc-800 hover:shadow-lg transition">
-                <div class="aspect-w-16 aspect-h-8 bg-gray-200">
-                    <img src="/assets/images/comsoc.jpg" alt="Blog Image" class="w-full h-full object-cover transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
-                </div>
-                <div class="p-4">
-                    <p class="text-xs font-medium text-gray-500 dark:text-slate-300">Announcement</p>
-                    <h3 class="text-sm font-semibold text-gray-900 dark:text-slate-200">COMMpamilya 🌟</h3>
-                    <p class="text-xs text-gray-600 dark:text-slate-300">Our COMMpassionate and dedicated officers are here to lead, inspire, and create a positive impact in the Communication Society.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <BlogCard v-for="(post, index) in posts" :key="index" :post="post" />
+      </div>
 
-                    <div class="flex items-center mt-4 text-gray-500">
-                      <img src="/assets/images/comsoc-logo.jpg" alt="Author" class="h-6 w-6 rounded-full mr-2 transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
-                      <div>
-                        <p class="text-xs font-medium dark:text-slate-300">MCST - Communication Society</p>
-                        <p class="text-xs dark:text-slate-300">January 29, 2025 · 1 min read</p>
-                      </div>
-                    </div>
-                </div>
-            </a>
-
-            <a href="https://www.facebook.com/share/p/1A4z9Ar3xn/" target="_blank" rel="noopener noreferrer" class="relative block bg-white rounded-lg shadow-md overflow-hidden dark:bg-zinc-800 hover:shadow-lg transition">
-                <div class="aspect-w-16 aspect-h-8 bg-gray-200">
-                    <img src="/assets/images/sakay.jpg" alt="Blog Image" class="w-full h-full object-cover transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
-                </div>
-                <div class="p-4">
-                    <p class="text-xs font-medium text-gray-500 dark:text-slate-300">Events</p>
-                    <h3 class="text-sm font-semibold text-gray-900 dark:text-slate-200">Sasakay ka na ba sa biyaheng kawalan? 🚍🚦</h3>
-                    <p class="text-xs text-gray-600 dark:text-slate-300">Inihahandog ng Mandaluyong College of Science and Technology, Bachelor of Arts in Communication – Second Year.</p>
-
-                    <div class="flex items-center mt-4 text-gray-500 dark:text-slate-300">
-                      <img src="/assets/images/sc-logo.jpg" alt="Author" class="h-6 w-6 rounded-full mr-2 transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
-                      <div>
-                        <p class="text-xs font-medium">MCST Student Council</p>
-                        <p class="text-xs">December 14, 2024 · 3 min read</p>
-                      </div>
-                    </div>
-                </div>
-            </a>
-
-            <a href="https://www.facebook.com/share/p/15g21o6ZaG/" target="_blank" rel="noopener noreferrer" class="relative block bg-white rounded-lg shadow-md overflow-hidden dark:bg-zinc-800 hover:shadow-lg transition">
-                <div class="aspect-w-16 aspect-h-8 bg-gray-200">
-                    <img src="/assets/images/secondsem.jpg" alt="Blog Image" class="w-full h-full object-cover">
-                </div>
-                <div class="p-4">
-                    <p class="text-xs font-medium text-gray-500 dark:text-slate-300">Announcement</p>
-                    <h3 class="text-sm font-semibold text-gray-900 dark:text-slate-200">Second Semester A.Y. 2024-2025</h3>
-                    <p class="text-xs text-gray-600 dark:text-slate-300">"Education is the key that unlocks the potential within you; it empowers you to harness your talents and skills to uplift others and contribute meaningfully to society."</p>
-
-                    <div class="flex items-center mt-4 text-gray-500 dark:text-slate-300">
-                      <img src="/assets/images/mcst-logo.png" alt="Author" class="h-6 w-6 rounded-full mr-2 transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
-                      <div>
-                        <p class="text-xs font-medium">Mandaluyong College of Science and Technology</p>
-                        <p class="text-xs">January 12, 2025 · 1 min read</p>
-                      </div>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="text-center mt-6">
-            <a href="https://www.facebook.com/MandaluyongCST" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white px-6 py-2 rounded-md shadow hover:bg-blue-700 text-sm dark:bg-blue-800">View all</a>
-        </div>
+      <div class="text-center mt-6">
+        <a href="https://www.facebook.com/MandaluyongCST" target="_blank" rel="noopener noreferrer"
+          class="inline-block bg-blue-600 text-white px-6 py-2 rounded-md shadow hover:bg-blue-700 text-sm dark:bg-blue-800">
+          View all
+        </a>
+      </div>
     </div>
-</section>
-
+  </section>
 
   <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="200" class="py-16 bg-gray-100 dark:bg-zinc-900">
     <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-6">
@@ -180,3 +127,42 @@
     </div>
   </section>
 </template>
+
+<script setup>
+
+const posts = [
+  {
+    link: "https://www.facebook.com/share/p/1BNSzjUoGd/",
+    image: "/images/comsoc.jpg",
+    category: "Announcement",
+    title: "COMMpamilya 🌟",
+    description: "Our COMMpassionate and dedicated officers are here to lead, inspire, and create a positive impact in the Communication Society.",
+    authorImage: "/images/comsoc-logo.jpg",
+    author: "MCST - Communication Society",
+    date: "January 29, 2025",
+    readTime: "1 min read",
+  },
+  {
+    link: "https://www.facebook.com/share/p/1A4z9Ar3xn/",
+    image: "/images/sakay.jpg",
+    category: "Events",
+    title: "Sasakay ka na ba sa biyaheng kawalan? 🚍🚦",
+    description: "Inihahandog ng Mandaluyong College of Science and Technology, Bachelor of Arts in Communication – Second Year.",
+    authorImage: "/images/sc-logo.jpg",
+    author: "MCST Student Council",
+    date: "December 14, 2024",
+    readTime: "3 min read",
+  },
+  {
+    link: "https://www.facebook.com/share/p/15g21o6ZaG/",
+    image: "/images/secondsem.jpg",
+    category: "Announcement",
+    title: "Second Semester A.Y. 2024-2025",
+    description: `"Education is the key that unlocks the potential within you; it empowers you to harness your talents and skills to uplift others and contribute meaningfully to society."`,
+    authorImage: "/images/mcst-logo.png",
+    author: "Mandaluyong College of Science and Technology",
+    date: "January 12, 2025",
+    readTime: "1 min read",
+  },
+];
+</script>
