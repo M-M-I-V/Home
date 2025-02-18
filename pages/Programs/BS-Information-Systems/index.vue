@@ -66,9 +66,17 @@
               <td class="border border-gray-300 px-4 py-2 text-center">3</td>
               <td class="border border-gray-300 px-4 py-2"></td>
             </tr>
-              <tr>
-              <td class="border border-gray-300 px-4 py-2">SCITSOC</td>
-              <td class="border border-gray-300 px-4 py-2">Science, Technology, and Society</td>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">MANDCUL</td>
+              <td class="border border-gray-300 px-4 py-2">Mandaluyong Culture & History</td>
+              <td class="border border-gray-300 px-4 py-2 text-center">1</td>
+              <td class="border border-gray-300 px-4 py-2 text-center"></td>
+              <td class="border border-gray-300 px-4 py-2 text-center">(1)</td>
+              <td class="border border-gray-300 px-4 py-2"></td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 px-4 py-2">GEMMW</td>
+              <td class="border border-gray-300 px-4 py-2">Math in the Modern World</td>
               <td class="border border-gray-300 px-4 py-2 text-center">3</td>
               <td class="border border-gray-300 px-4 py-2 text-center"></td>
               <td class="border border-gray-300 px-4 py-2 text-center">3</td>
@@ -146,8 +154,8 @@
             <td class="border border-gray-300 px-4 py-2"></td>
           </tr>
           <tr>
-            <td class="border border-gray-300 px-4 py-2">GEMMW</td>
-            <td class="border border-gray-300 px-4 py-2">Math in the Modern World</td>
+            <td class="border border-gray-300 px-4 py-2">SCITSOC</td>
+            <td class="border border-gray-300 px-4 py-2">Science, Technology, and Society</td>
             <td class="border border-gray-300 px-4 py-2 text-center">3</td>
             <td class="border border-gray-300 px-4 py-2 text-center"></td>
             <td class="border border-gray-300 px-4 py-2 text-center">3</td>
@@ -162,8 +170,8 @@
             <td class="border border-gray-300 px-4 py-2"></td>
           </tr>
           <tr>
-            <td class="border border-gray-300 px-4 py-2">KOMFIL</td>
-            <td class="border border-gray-300 px-4 py-2">Kontekswalisadong Komunikasyon sa Filipino</td>
+            <td class="border border-gray-300 px-4 py-2">NSTP 2</td>
+            <td class="border border-gray-300 px-4 py-2">National Service Training Program 2</td>
             <td class="border border-gray-300 px-4 py-2 text-center">3</td>
             <td class="border border-gray-300 px-4 py-2 text-center"></td>
             <td class="border border-gray-300 px-4 py-2 text-center">3</td>
@@ -237,6 +245,14 @@
                 <td class="border border-gray-300 px-4 py-2"></td>
               </tr>
               <tr>
+                <td class="border border-gray-300 px-4 py-2">KOMFIL</td>
+                <td class="border border-gray-300 px-4 py-2">Kontekswalisadong Komunikasyon sa Filipino</td>
+                <td class="border border-gray-300 px-4 py-2 text-center">3</td>
+                <td class="border border-gray-300 px-4 py-2 text-center"></td>
+                <td class="border border-gray-300 px-4 py-2 text-center">3</td>
+                <td class="border border-gray-300 px-4 py-2"></td>
+              </tr>
+              <tr>
                 <td class="border border-gray-300 px-4 py-2">PANITIK</td>
                 <td class="border border-gray-300 px-4 py-2">Panitikang Panlipunan</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">3</td>
@@ -247,14 +263,6 @@
               <tr>
                 <td class="border border-gray-300 px-4 py-2">GENSOC</td>
                 <td class="border border-gray-300 px-4 py-2">Gender and Society</td>
-                <td class="border border-gray-300 px-4 py-2 text-center">3</td>
-                <td class="border border-gray-300 px-4 py-2 text-center"></td>
-                <td class="border border-gray-300 px-4 py-2 text-center">3</td>
-                <td class="border border-gray-300 px-4 py-2"></td>
-              </tr>
-              <tr>
-                <td class="border border-gray-300 px-4 py-2">NSTP 2</td>
-                <td class="border border-gray-300 px-4 py-2">National Service Training Program 2</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">3</td>
                 <td class="border border-gray-300 px-4 py-2 text-center"></td>
                 <td class="border border-gray-300 px-4 py-2 text-center">3</td>
@@ -454,14 +462,6 @@
                 <td class="border border-gray-300 px-4 py-2 text-center">2</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">3</td>
                 <td class="border border-gray-300 px-4 py-2 text-center">3</td>
-                <td class="border border-gray-300 px-4 py-2"></td>
-              </tr>
-              <tr>
-                <td class="border border-gray-300 px-4 py-2">MANDCUL</td>
-                <td class="border border-gray-300 px-4 py-2">Mandaluyong Culture & History</td>
-                <td class="border border-gray-300 px-4 py-2 text-center">1</td>
-                <td class="border border-gray-300 px-4 py-2 text-center"></td>
-                <td class="border border-gray-300 px-4 py-2 text-center">(1)</td>
                 <td class="border border-gray-300 px-4 py-2"></td>
               </tr>
               <tr>
