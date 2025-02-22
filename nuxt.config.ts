@@ -14,7 +14,7 @@ export default defineNuxtConfig({
         { property: 'og:image', content: '/images/hero-section.png' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/images/mcst-logo.png' }
+        { rel: 'icon', type: 'image/png', href: '/Home/images/mcst-logo.png' }
       ]
     }
   },

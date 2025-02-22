@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-[600px] bg-cover bg-center pt-[calc(100px)]" style="background-image: url('/images/hero-section.png');">
+  <section class="relative h-[600px] bg-cover bg-center pt-[calc(100px)]" style="background-image: url('/Home/images/hero-section.png');">
       <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center px-6 sm:px-12">
       <h2 class="text-2xl sm:text-4xl lg:text-4xl font-bold text-white mb-4 dark:text-slate-200 text-center">
           Admissions Information
@@ -76,7 +76,7 @@
     
         <ol class="list-decimal pl-6 mb-8 space-y-4">
           <li>
-            The applicant shall fill-out the pre-registration via Google Form: <a href="bit.ly/MCSTAdmAY2024-2025" class="text-blue-500 underline" target="_blank" rel="noopener noreferrer">bit.ly/MCSTAdmAY2024-2025</a>
+            The applicant shall fill-out the pre-registration via Google Form: <a href="https://docs.google.com/forms/d/e/1FAIpQLSfbfVo37QE7FORe49_bfCF5XBNKGCweeyrMNeiW6oWFVNYEQA/closedform" class="text-blue-500 underline" target="_blank" rel="noopener noreferrer">Pre-Register Form</a>
             <p class="mt-1 italic">Note: Failure to take the pre-registration form means invalid application.</p>
           </li>
           <li>

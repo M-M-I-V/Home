@@ -15,7 +15,7 @@
         <p class="text-lg">At MCST, we are committed to genuine public service and fostering care within our community. Our core values of discipline, action over words, nationalism, and excellence guide us in shaping responsible and innovative leaders.</p>
       </div>
       <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-offset="200"    class="md:w-1/2 mt-8 md:mt-0 transition duration-200 dark:brightness-75 dark:contrast-125">
-        <img src="/assets/images/feature.jpg" alt="Feature Image" class="w-full md:w-3/4 mx-auto rounded-lg" loading="lazy">
+        <img src="/Home/assets/images/feature.jpg" alt="Feature Image" class="w-full md:w-3/4 mx-auto rounded-lg" loading="lazy">
       </div>
     </div>
   </section>
@@ -29,17 +29,17 @@
   
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-offset="200"   class="p-6 bg-white rounded-lg shadow-md dark:bg-zinc-800">
-          <img src="/assets/images/collaboration.svg" alt="Collaborating Icon" class="h-16 w-16 mx-auto mb-4">
+          <img src="/Home/assets/images/collaboration.svg" alt="Collaborating Icon" class="h-16 w-16 mx-auto mb-4">
           <h3 class="text-xl font-semibold mb-2">Collaborating for a Brighter Future</h3>
           <p class="text-gray-700 dark:text-slate-300">We actively collaborate with stakeholders to enhance educational outcomes.</p>
         </div>
         <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-offset="200"  class="p-6 bg-white rounded-lg shadow-md dark:bg-zinc-800">
-          <img src="/assets/images/improve.svg" alt="Continuous Improvement Icon" class="h-16 w-16 mx-auto mb-4">
+          <img src="/Home/assets/images/improve.svg" alt="Continuous Improvement Icon" class="h-16 w-16 mx-auto mb-4">
           <h3 class="text-xl font-semibold mb-2">Continuous Improvement in Education</h3>
           <p class="text-gray-700 dark:text-slate-300">Our focus on continuous improvement drives us to innovate and adapt.</p>
         </div>
         <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-offset="200"  class="p-6 bg-white rounded-lg shadow-md dark:bg-zinc-800">
-          <img src="/assets/images/research.svg" alt="Research and Instruction Icon" class="h-16 w-16 mx-auto mb-4">
+          <img src="/Home/assets/images/research.svg" alt="Research and Instruction Icon" class="h-16 w-16 mx-auto mb-4">
           <h3 class="text-xl font-semibold mb-2">Fostering Excellence in Research and Instruction</h3>
           <p class="text-gray-700 dark:text-slate-300">We prioritize research initiatives that contribute to societal development.</p>
         </div>
@@ -125,7 +125,7 @@
           </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-offset="200" class="hidden md:block bg-gray-200 rounded-lg transition duration-200 dark:brightness-75 dark:contrast-125">
-          <img src="/assets/images/office.jpg" alt="Admin Building Image" class="w-full h-full object-cover rounded-lg" loading="lazy">
+          <img src="/Home/assets/images/office.jpg" alt="Admin Building Image" class="w-full h-full object-cover rounded-lg" loading="lazy">
         </div>
       </div>
     </div>
@@ -137,33 +137,33 @@
 const posts = [
   {
     link: "https://www.facebook.com/share/p/1BNSzjUoGd/",
-    image: "/images/comsoc.jpg",
+    image: "/Home/images/comsoc.jpg",
     category: "Announcement",
     title: "COMMpamilya 🌟",
     description: "Our COMMpassionate and dedicated officers are here to lead, inspire, and create a positive impact in the Communication Society.",
-    authorImage: "/images/comsoc-logo.jpg",
+    authorImage: "/Home/images/comsoc-logo.jpg",
     author: "MCST - Communication Society",
     date: "January 29, 2025",
     readTime: "1 min read",
   },
   {
     link: "https://www.facebook.com/share/p/1A4z9Ar3xn/",
-    image: "/images/sakay.jpg",
+    image: "/Home/images/sakay.jpg",
     category: "Events",
     title: "Sasakay ka na ba sa biyaheng kawalan? 🚍🚦",
     description: "Inihahandog ng Mandaluyong College of Science and Technology, Bachelor of Arts in Communication – Second Year.",
-    authorImage: "/images/sc-logo.jpg",
+    authorImage: "/Home/images/sc-logo.jpg",
     author: "MCST Student Council",
     date: "December 14, 2024",
     readTime: "3 min read",
   },
   {
     link: "https://www.facebook.com/share/p/15g21o6ZaG/",
-    image: "/images/secondsem.jpg",
+    image: "/Home/images/secondsem.jpg",
     category: "Announcement",
     title: "Second Semester A.Y. 2024-2025",
     description: `"Education is the key that unlocks the potential within you; it empowers you to harness your talents and skills to uplift others and contribute meaningfully to society."`,
-    authorImage: "/images/mcst-logo.png",
+    authorImage: "/Home/images/mcst-logo.png",
     author: "Mandaluyong College of Science and Technology",
     date: "January 12, 2025",
     readTime: "1 min read",
