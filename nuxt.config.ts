@@ -11,7 +11,7 @@ export default defineNuxtConfig({
         { name: 'keywords', content: 'Mandaluyong College, Science, Technology, Education, Philippines' },
         { property: 'og:title', content: 'Mandaluyong College of Science and Technology' },
         { property: 'og:description', content: 'Empowering Futures Through Science and Technology.' },
-        { property: 'og:image', content: '/images/hero-section.png' }
+        { property: 'og:image', content: '/Home/images/hero-section.png' }
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/Home/images/mcst-logo.png' }

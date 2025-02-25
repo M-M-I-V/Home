@@ -28,7 +28,7 @@
           </div>
       </div>
       <div class="md:w-1/2 transition duration-200 dark:brightness-75 dark:contrast-125">
-          <img src="/Home/assets/images/statistics.jpg" alt="Statistics Image" class="w-full rounded-lg shadow-md" loading="lazy">
+          <img src="/assets/images/stats.jpg" alt="Statistics Image" class="w-full rounded-lg shadow-md" loading="lazy">
       </div>
       </div>
   </section>
