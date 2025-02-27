@@ -42,7 +42,7 @@
         </p>
       </div>
       <div class="order-1 md:order-2">
-        <img src="/Home/assets/images/mcst-philosophy.jpg" alt="Philosophy Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
+        <img src="/assets/images/mcst-philosophy.jpg" alt="Philosophy Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
       </div>
     </div>
   </section>
@@ -56,7 +56,7 @@
         </p>
       </div>
       <div class="order-1 md:order-2">
-        <img src="/Home/assets/images/mcst-mission.jpg" alt="Mission Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
+        <img src="/assets/images/mcst-mission.jpg" alt="Mission Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
       </div>
     </div>
   </section>
@@ -70,7 +70,7 @@
         </p>
       </div>
       <div class="order-1 md:order-2">
-        <img src="/Home/assets/images/mcst-vision.jpg" alt="Vision Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
+        <img src="/assets/images/mcst-vision.jpg" alt="Vision Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
       </div>
     </div>
   </section>
@@ -78,7 +78,7 @@
   <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="200" id="core-values" class="py-16 bg-gray-50 dark:bg-zinc-900">
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6">
       <div class="order-1 md:order-2">
-        <img src="/Home/assets/images/mcst-values.jpg" alt="Core Values Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
+        <img src="/assets/images/mcst-values.jpg" alt="Core Values Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
       </div>
       <div>
         <h2 class="text-3xl font-bold mb-4 dark:text-slate-200">Core Values</h2>
@@ -100,7 +100,7 @@
   <section data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-offset="200" id="goals" class="py-16 bg-gray-50 dark:bg-zinc-900">
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6">
       <div class="order-1 md:order-2">
-        <img src="/Home/assets/images/mcst-goals.jpg" alt="Vision Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
+        <img src="/assets/images/mcst-goals.jpg" alt="Vision Image" class="w-full rounded-lg shadow-md transition duration-200 dark:brightness-75 dark:contrast-125" loading="lazy">
       </div>
       <div>
         <h2 class="text-3xl font-bold mb-4 dark:text-slate-200">Goals</h2>

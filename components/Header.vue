@@ -12,7 +12,7 @@ const toggleMobileMenu = () => {
     <div class="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
       <div class="flex items-center space-x-4">
         <NuxtLink to="/">
-          <img src="/Home/assets/images/mcst-logo.png" alt="MCST Logo" class="max-h-20 w-auto sm:max-h-16" />
+          <img src="/images/mcst-logo.png" alt="MCST Logo" class="max-h-20 w-auto sm:max-h-16" />
         </NuxtLink>
         <h1 class="text-lg sm:text-xl font-bold dark:text-slate-300">Mandaluyong College of Science and Technology</h1>
       </div>
