@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
     baseURL: '/Home/',
@@ -36,7 +35,6 @@ export default defineNuxtConfig({
     '/**': { static: true }
   },
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
   plugins: [
     '~/plugins/aos.client.ts'
   ]

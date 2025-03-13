@@ -1,5 +1,5 @@
 <template>
-    <section class="relative h-[600px] bg-cover bg-center pt-[calc(100px)]" style="background-image: url('/images/hero-section.png');">
+    <section class="relative h-[600px] bg-cover bg-center pt-[calc(100px)]" :style="{ backgroundImage: `url(${featureImage})` }">
     <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center px-6 sm:px-12">
       <h2 class="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 dark:text-slate-200">Empowering Futures <br> Through Science and <br> Technology</h2>
       <p class="text-sm text-gray-200 max-w-3xl dark:text-slate-200">
@@ -133,37 +133,45 @@
 </template>
 
 <script setup>
+const config = useRuntimeConfig();
+const bgImage = `${config.app.baseURL}images/hero-section.png`;
+import comsocImage from '~/assets/images/comsoc.jpg';
+import sakayImage from '~/assets/images/sakay.jpg';
+import secondSemImage from '~/assets/images/secondsem.jpg';
+import comsocLogo from '~/assets/images/comsoc-logo.jpg';
+import scLogo from '~/assets/images/sc-logo.jpg';
+import mcstLogo from '~/assets/images/mcst-logo.png';
 
 const posts = [
   {
     link: "https://www.facebook.com/share/p/1BNSzjUoGd/",
-    image: "/images/comsoc.jpg",
+    image: comsocImage,
     category: "Announcement",
     title: "COMMpamilya 🌟",
     description: "Our COMMpassionate and dedicated officers are here to lead, inspire, and create a positive impact in the Communication Society.",
-    authorImage: "/images/comsoc-logo.jpg",
+    authorImage: comsocLogo,
     author: "MCST - Communication Society",
     date: "January 29, 2025",
     readTime: "1 min read",
   },
   {
     link: "https://www.facebook.com/share/p/1A4z9Ar3xn/",
-    image: "/images/sakay.jpg",
+    image: sakayImage,
     category: "Events",
     title: "Sasakay ka na ba sa biyaheng kawalan? 🚍🚦",
     description: "Inihahandog ng Mandaluyong College of Science and Technology, Bachelor of Arts in Communication – Second Year.",
-    authorImage: "/images/sc-logo.jpg",
+    authorImage: scLogo,
     author: "MCST Student Council",
     date: "December 14, 2024",
     readTime: "3 min read",
   },
   {
     link: "https://www.facebook.com/share/p/15g21o6ZaG/",
-    image: "/images/secondsem.jpg",
+    image: secondSemImage,
     category: "Announcement",
     title: "Second Semester A.Y. 2024-2025",
     description: `"Education is the key that unlocks the potential within you; it empowers you to harness your talents and skills to uplift others and contribute meaningfully to society."`,
-    authorImage: "/images/mcst-logo.png",
+    authorImage: mcstLogo,
     author: "Mandaluyong College of Science and Technology",
     date: "January 12, 2025",
     readTime: "1 min read",
