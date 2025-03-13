@@ -1,12 +1,11 @@
 <script setup>
-import mcstLogo from '~/assets/images/mcst-logo.png';
 </script>
 
 <template>
   <footer class="bg-blue-900 text-white py-8 dark:bg-blue-800 dark:text-slate-300">
     <div class="container mx-auto flex flex-col md:flex-row justify-between px-6">
       <div class="mb-6 md:mb-0">
-        <img :src="mcstLogo" alt="MCST Logo" class="h-16 w-auto">
+        <img src="/images/mcst-logo.png" alt="MCST Logo" class="h-16 w-auto">
         <p class="mt-4">Address:</p>
         <p>Welfareville Compound, Barangay Addition Hills, Mandaluyong City 1550</p>
         <p class="mt-4">Contact:</p>
