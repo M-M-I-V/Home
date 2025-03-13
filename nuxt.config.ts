@@ -32,7 +32,7 @@ export default defineNuxtConfig({
     preset: "static"
   },
   routeRules: {
-    '/**': { static: true }
+    '/**': { prerender: true }
   },
   devtools: { enabled: true },
   plugins: [
