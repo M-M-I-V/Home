@@ -1,5 +1,5 @@
 <template>
-    <section class="relative h-[600px] bg-cover bg-center pt-[calc(100px)]" style="background-image: url('/images/hero-section.png');">
+    <section class="relative h-[600px] bg-cover bg-center pt-[calc(100px)]" style="background-image: url('/Home/images/hero-section.png');">
     <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center px-6 sm:px-12">
       <h2 class="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 dark:text-slate-200">Empowering Futures <br> Through Science and <br> Technology</h2>
       <p class="text-sm text-gray-200 max-w-3xl dark:text-slate-200">
@@ -137,7 +137,7 @@
 const posts = [
   {
     link: "https://www.facebook.com/share/p/1BNSzjUoGd/",
-    image: "/images/comsoc.jpg",
+    image: "/Home/images/comsoc.jpg",
     category: "Announcement",
     title: "COMMpamilya 🌟",
     description: "Our COMMpassionate and dedicated officers are here to lead, inspire, and create a positive impact in the Communication Society.",
@@ -148,7 +148,7 @@ const posts = [
   },
   {
     link: "https://www.facebook.com/share/p/1A4z9Ar3xn/",
-    image: "/images/sakay.jpg",
+    image: "/Home/images/sakay.jpg",
     category: "Events",
     title: "Sasakay ka na ba sa biyaheng kawalan? 🚍🚦",
     description: "Inihahandog ng Mandaluyong College of Science and Technology, Bachelor of Arts in Communication – Second Year.",
@@ -159,7 +159,7 @@ const posts = [
   },
   {
     link: "https://www.facebook.com/share/p/15g21o6ZaG/",
-    image: "/images/secondsem.jpg",
+    image: "/Home/images/secondsem.jpg",
     category: "Announcement",
     title: "Second Semester A.Y. 2024-2025",
     description: `"Education is the key that unlocks the potential within you; it empowers you to harness your talents and skills to uplift others and contribute meaningfully to society."`,
