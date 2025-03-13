@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   app: {
-    baseURL: '/Home/',
+    baseURL: '/Home/', // Ensure this matches your GitHub repository name
+    cdnURL: 'https://m-m-i-v.github.io/Home/', // Set this to avoid broken assets
     head: {
       title: 'Mandaluyong College of Science and Technology',
       meta: [
@@ -10,10 +11,10 @@ export default defineNuxtConfig({
         { name: 'keywords', content: 'Mandaluyong College, Science, Technology, Education, Philippines' },
         { property: 'og:title', content: 'Mandaluyong College of Science and Technology' },
         { property: 'og:description', content: 'Empowering Futures Through Science and Technology.' },
-        { property: 'og:image', content: '/Home/images/hero-section.png' }
+        { property: 'og:image', content: 'https://m-m-i-v.github.io/Home/images/hero-section.png' } // Use absolute path
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/Home/images/mcst-logo.png' }
+        { rel: 'icon', type: 'image/png', href: 'https://m-m-i-v.github.io/Home/images/mcst-logo.png' } // Use absolute path
       ]
     }
   },
@@ -29,10 +30,13 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2024-11-01',
   nitro: {
-    preset: "static"
+    preset: "static",
+    output: {
+      dir: 'docs'
+    }
   },
   routeRules: {
-    '/**': { prerender: true }
+    '/**': { static: true }
   },
   devtools: { enabled: true },
   plugins: [
