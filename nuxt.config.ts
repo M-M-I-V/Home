@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   app: {
-    baseURL: '/Home/', // Ensure this matches your GitHub repository name
-    cdnURL: 'https://m-m-i-v.github.io/Home/', // Set this to avoid broken assets
+    baseURL: '/Home/', 
+    cdnURL: 'https://m-m-i-v.github.io/Home/'
     head: {
       title: 'Mandaluyong College of Science and Technology',
       meta: [
