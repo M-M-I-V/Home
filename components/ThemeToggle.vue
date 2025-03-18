@@ -1,10 +1,8 @@
 <script setup>
 import { ref, onMounted, watch } from "vue";
 
-// Reactive dark mode state
 const isDarkMode = ref(false);
 
-// Function to apply the theme
 const applyTheme = () => {
   if (isDarkMode.value) {
     document.documentElement.classList.add("dark");
@@ -15,7 +13,6 @@ const applyTheme = () => {
   }
 };
 
-// Check for saved theme or system preference on mount
 onMounted(() => {
   const savedTheme = localStorage.getItem("theme");
 
@@ -28,13 +25,11 @@ onMounted(() => {
   applyTheme(); // Apply the detected theme
 });
 
-// Toggle theme function
 const toggleTheme = () => {
   isDarkMode.value = !isDarkMode.value;
   applyTheme();
 };
 
-// Watch for theme changes and apply immediately
 watch(isDarkMode, applyTheme);
 </script>
 
