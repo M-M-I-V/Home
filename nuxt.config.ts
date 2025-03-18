@@ -11,10 +11,10 @@ export default defineNuxtConfig({
         { name: 'keywords', content: 'Mandaluyong College, Science, Technology, Education, Philippines' },
         { property: 'og:title', content: 'Mandaluyong College of Science and Technology' },
         { property: 'og:description', content: 'Empowering Futures Through Science and Technology.' },
-        { property: 'og:image', content: 'https://m-m-i-v.github.io/Home/images/hero-section.png' } // Use absolute path
+        { property: 'og:image', content: 'https://m-m-i-v.github.io/Home/images/hero-section.png' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: 'https://m-m-i-v.github.io/Home/images/mcst-logo.png' } // Use absolute path
+        { rel: 'icon', type: 'image/png', href: 'https://m-m-i-v.github.io/Home/images/mcst-logo.png' } 
       ]
     }
   },
