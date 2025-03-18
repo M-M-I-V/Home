@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   app: {
     baseURL: '/Home/', 
-    cdnURL: 'https://m-m-i-v.github.io/Home/'
+    cdnURL: 'https://m-m-i-v.github.io/Home/',
     head: {
       title: 'Mandaluyong College of Science and Technology',
       meta: [
